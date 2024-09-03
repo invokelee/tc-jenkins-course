@@ -1,1 +1,1 @@
-Test adding a testing stage to TestPipeline True -> False
+Modify the run_simulation.sh typo for TestJob
