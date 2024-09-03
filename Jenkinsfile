@@ -1,6 +1,11 @@
 pipeline {
     agent any 
     stages {
+        stage('Run tests') {
+            steps {
+                sh 'python -m unittest discover -s tests -v'
+            }
+        }
         stage('Print + list current directory') {
             steps {
                 sh 'pwd'
